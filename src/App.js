@@ -1,11 +1,11 @@
 import React from 'react';
 import './index.css'
-import Hello from './components/Hello'
+import Homepage from './screens/homepage'
 
 export default function App() {
   return (
     <div class="container">
-        <Hello />
+        <Homepage />
     </div>
   );
 }
