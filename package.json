@@ -1,13 +1,11 @@
 {
   "name": "electron-react-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "start": "rescripts start",
     "build": "rescripts build",
-    "test": "rescripts test",
-    "eject": "react-scripts eject",
-    "dev": "concurrently \"yarn start\" \"wait-on http://localhost:3000 && electron .\"",
+    "electron": "concurrently \"yarn start\" \"wait-on http://localhost:3000 && electron .\"",
     "postinstall": "electron-builder install-app-deps",
     "preelectron-build": "yarn build",
     "electron-build": "electron-builder -w"
