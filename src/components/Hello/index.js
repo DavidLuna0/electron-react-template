@@ -1,12 +1,10 @@
 import React from 'react';
 import './index.css'
-import Hello from './components/Hello'
 
-export default function App() {
+export default function Hello() {
   return (
     <div class="container">
-        <Hello />
+        Hello React-Electron App
     </div>
   );
 }
-    
