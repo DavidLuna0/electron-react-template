@@ -17,6 +17,8 @@ You will also see any lint errors in the console.
 Runs the electron app in the development mode.<br />
 It runs the `yarn start` script and after that load the app running on localhost:3000 on the electron app.
 
+<img width="959" alt="Template-print" src="https://user-images.githubusercontent.com/37220913/73269370-75d7fb00-41bb-11ea-88c5-eded3d9aae1a.png">
+
 ### `yarn build`
 
 Builds the app for production to the `build` folder.<br />
